@@ -4,6 +4,8 @@ import './App.css';
 
 import Welcome from './Welcome'
 import Counter from './Counter'
+import Books from './Books'
+import Todos from './Todos'
 
 class App extends React.Component {
   render() {
@@ -13,7 +15,7 @@ class App extends React.Component {
         <Welcome year={2020} isGreeting={false}/>
         <Welcome title="Varma" year={2019}/>
         </header>
-        <Counter/>
+        <Todos/>
       </div>
     );
   }
