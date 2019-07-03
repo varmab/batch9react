@@ -7,6 +7,8 @@ import Counter from './Counter'
 import Books from './Books'
 import Todos from './Todos'
 
+import Users from './Users'
+
 class App extends React.Component {
   render() {
     return (
@@ -15,7 +17,7 @@ class App extends React.Component {
         <Welcome year={2020} isGreeting={false}/>
         <Welcome title="Varma" year={2019}/>
         </header>
-        <Todos/>
+        <Users/>
       </div>
     );
   }
