@@ -8,6 +8,7 @@ import Books from './Books'
 import Todos from './Todos'
 
 import Users from './Users'
+import Library from './Library'
 
 class App extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class App extends React.Component {
         <Welcome year={2020} isGreeting={false}/>
         <Welcome title="Varma" year={2019}/>
         </header>
-        <Users/>
+        <Library/>
       </div>
     );
   }
